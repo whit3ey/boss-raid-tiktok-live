@@ -1,0 +1,16 @@
+{
+  "name": "boss-raid-tiktok-live",
+  "version": "1.4.6",
+  "private": true,
+  "description": "Boss Raid TikTok LIVE game using direct PirateTok WebSocket events; no paid signing or API key.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "piratetok-live-js": "^0.1.0"
+  },
+  "type": "module"
+}
